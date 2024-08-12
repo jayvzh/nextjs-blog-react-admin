@@ -2,6 +2,7 @@ import styles from "../styles/PostLayout.module.css";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import PostLoading from "./PostLoading";
+import Image from 'next/image';
 
 //import TocAndMD from "./TocAndMD";
 
