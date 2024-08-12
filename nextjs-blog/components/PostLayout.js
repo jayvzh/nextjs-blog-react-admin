@@ -35,7 +35,7 @@ export default function PostLayout({ post, siteMetadata }) {
                 if (author === "default") {
                   return (
                     <p className={styles["author"]} key={author}>
-                      <img
+                      <Image
                         className={styles["default-author-avatar"]}
                         src={siteMetadata.avatar}
                         width={20}
